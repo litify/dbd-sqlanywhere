@@ -1,5 +1,3 @@
-require "dbd-sqlanywhere/version"
-
 Gem::Specification.new do |s|
   s.name              = "dbd-sqlanywhere"
   s.version           = '1.0.2'
