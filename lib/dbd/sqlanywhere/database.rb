@@ -78,8 +78,8 @@ END_OF_STATEMENT
 	 -10 => DBI::SQL_SMALLINT,
 	 -11 => DBI::SQL_BIGINT,
 	  -7 => DBI::SQL_BIT,
-	   2 => DBI::SQL_DECIMAL,
-	  -2 => DBI::SQL_VARBINARY,
+	   3 => DBI::SQL_DECIMAL, #https://www.rubydoc.info/github/erikh/ruby-dbi/DBI
+	  -3 => DBI::SQL_VARBINARY, #https://www.rubydoc.info/github/erikh/ruby-dbi/DBI
 	 -15 => DBI::SQL_BINARY,
 	 -16 => DBI::SQL_VARBINARY,
 	 -17 => DBI::SQL_LONGVARBINARY,
