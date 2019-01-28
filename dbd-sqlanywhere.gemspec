@@ -1,11 +1,10 @@
-$LOAD_PATH.unshift 'lib'
 require "dbd-sqlanywhere/version"
 
 Gem::Specification.new do |s|
   s.name              = "dbd-sqlanywhere"
-  s.version           = Dbd-sqlanywhere::VERSION
+  s.version           = '1.0.2'
   s.date              = Time.now.strftime('%Y-%m-%d')
-  s.summary           = "Feed me."
+  s.summary           = "Allows connection between dbd and sqlanywhere"
   s.homepage          = "http://github.com//dbd-sqlanywhere"
   s.email             = "emily@litify.com"
   s.authors           = [ "Emily McSherry" ]
